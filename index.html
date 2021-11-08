@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nav Bar</title>
+  </head>
+  <body>
+    <header>
+      <ion-icon class="logo" name="film-outline" alt="film-icon"></ion-icon>
+      <nav>
+        <ul class="nav_links">
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="#"><button>Contact</button></a>
+    </header>
+
+    <section>
+      <button id="modalBtn" class="button">Click Here</button>
+      <div class="modal">
+        <div class="modal-content">
+        <span class="closeBtn">&times;</span>
+          <div class="modal-header">
+            <h1>Please fill out this survey</h1>
+          </div>
+          <div class="modal-body">
+            <form>
+              <label for="question">How many movies do you watch a month?</label>
+              <input type="number" id="number" name="number">
+            </form>
+          </div>
+          <div class="modal-footer">
+            Thanks for participating!
+          </div>
+        </div>
+      </div>
+    </section>
+    <script  src="main.js" type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+       ></script>
+   
+</html>
